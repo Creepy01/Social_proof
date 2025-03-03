@@ -1,0 +1,81 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    line-height: 0.9;
+}
+body{
+    font-family: "League Spartan";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    color: hsl(303, 10%, 53%);
+    background: url(./images/bg-pattern-top-desktop.svg) top left, url(./images/bg-pattern-bottom-desktop.svg) bottom right;
+    background-repeat: no-repeat;
+    background-color: hsl(0, 0%, 100%);
+}
+.wrapper{
+    width: 70%;
+    margin: auto;
+}
+/* typography */
+.title{
+    font-size: 2.75rem;
+}
+.title, .rating-text{
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+.username{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+.user-stat{
+    color: hsl(333, 80%, 67%);
+}
+/* general style */
+.card{
+    color: hsl(300, 24%, 96%);
+    background-color:hsl(300, 43%, 22%);
+    border-radius: 0.5rem;
+    padding: 2rem 3rem;
+    width: 30%;
+    min-width: 300px;
+}
+
+.social-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* card styles */
+.user-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.userdata{
+    padding: 0 8px ;
+}
+
+/* images/icons style */
+.stars{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-info img{
+    border-radius: 50%;
+    width: 20%;
+}
+/* rating-item */
+.rating-item{
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+
