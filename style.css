@@ -30,7 +30,7 @@ body{
     flex-wrap: wrap;
 }
 .social-row-desc{
-    width: 40%;
+    width: 35%;
     color: hsl(303, 10%, 53%);
 }
 h1{
@@ -105,26 +105,41 @@ span{
     color: hsl(300, 24%, 96%);
 }
 @media screen and (max-width: 375px){
+    .wrapper{
+        width: 85%;
+    }
     .social-row{
         align-items: center;
+        justify-content: center; 
+        flex-wrap: wrap;
     }
     .social-row-desc{
         text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    h1{
         width: 100%;
     }
     .rating{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        margin: 0 auto;
     }
     .rating-item{
         display: flex;
         flex-direction: column;
+        margin: 0 auto;
     }
     .rating-item:nth-child(2), .rating-item:nth-child(3){
-        margin: 1rem auto;
+        margin: 1rem 0;
     }
     .card:nth-child(2),.card:nth-child(3){
-        margin-top: 20px auto;
+        margin-top: 20px ;
+    }
+    .social-row{
+        align-self: center;
     }
 }
