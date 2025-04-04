@@ -27,7 +27,6 @@ body{
     align-items:center ;
     margin: auto auto;
     width: 100%;
-    flex-wrap: wrap;
 }
 .social-row-desc{
     width: 35%;
